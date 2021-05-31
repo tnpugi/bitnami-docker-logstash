@@ -16,6 +16,7 @@ RUN . /opt/bitnami/scripts/libcomponent.sh && component_unpack "gosu" "1.12.0-2"
 ENV BITNAMI_APP_NAME="logstash" \
     BITNAMI_IMAGE_VERSION="7.12.1-debian-10-r10" \
     JAVA_HOME="/opt/bitnami/java" \
+    LOGSTASH_HOME="/opt/bitnami/logstash" \
     PATH="/opt/bitnami/java/bin:/opt/bitnami/logstash/bin:/opt/bitnami/common/bin:$PATH"
 
 COPY rootfs /
