@@ -26,3 +26,4 @@ info "Installing additional logstash plugins..."
 
 info "Setting LOGSTASH_HEAP_SIZE to configured default ..."
 LOGSTASH_HEAP_SIZE=$LOGSTASH_HEAP_SIZE_ORIG
+
